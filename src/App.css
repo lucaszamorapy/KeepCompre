@@ -171,3 +171,55 @@ body {
 .container .buttons button:first-child img {
   transform: rotate(180deg);
 }
+
+.container {
+  position: relative;
+  bottom: 25px;
+}
+
+#filter h1{
+  text-align: center;
+}
+
+
+#filter-btn-box{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#filter-btn-box button {
+  margin: 0 10px;
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+#filter-btn-box button.active, #filter-btn-box button:hover {
+  color: #fff;
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+}
+
+.project-box img{
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+  text-align: center;
+  margin: 5px 5px;
+  border-radius: 10px;
+}
+
+#filter-box {
+  text-align: center;
+}
+
+
+
+
